@@ -64,7 +64,7 @@ export default function About() {
               learning & improving
             </p>
 
-            <a className="btn btn-primary py-3 px-8 mt-5" href="#projects">
+            <a className="btn btn-primary py-3 px-8 mt-5" href="#project">
               Explore My Work
             </a>
           </div>
