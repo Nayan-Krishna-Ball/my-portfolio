@@ -17,7 +17,7 @@ export default function About() {
 
           <div className="lg:w-1/2">
             <div className="flex items-center mb-12">
-              <div className="flex-shrink-0 text-center mr-6">
+              <div className="shrink-0 text-center mr-6">
                 <h1 className="text-8xl md:text-[10rem] leading-none text-primary font-bold mb-0">
                   1+
                 </h1>
@@ -31,7 +31,7 @@ export default function About() {
             </div>
 
             <p className="mb-5 text-[#555] leading-relaxed text-sm">
-              Hi, I’m{" "}
+              Hi, I`m{" "}
               <span className="font-semibold text-dark">Nayan Krishna</span> — a
               frontend developer who enjoys turning ideas into clean and
               interactive web applications. My journey started with curiosity
@@ -70,10 +70,8 @@ export default function About() {
           </div>
 
           {/* Right Column */}
-
           <div className="lg:w-1/2">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
-              {/* Frontend */}
               <div className="p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 bg-white">
                 <FaCode className="text-primary text-3xl mb-4" />
                 <h4 className="font-bold text-lg mb-2">Frontend</h4>
@@ -82,21 +80,18 @@ export default function About() {
                 </p>
               </div>
 
-              {/* Backend */}
               <div className="p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 bg-white">
                 <FaServer className="text-primary text-3xl mb-4" />
                 <h4 className="font-bold text-lg mb-2">Backend</h4>
                 <p className="text-[#555] text-sm">Node.js, Express.js</p>
               </div>
 
-              {/* Database */}
               <div className="p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 bg-white">
                 <FaDatabase className="text-primary text-3xl mb-4" />
                 <h4 className="font-bold text-lg mb-2">Database</h4>
                 <p className="text-[#555] text-sm">MongoDB</p>
               </div>
 
-              {/* Tools */}
               <div className="p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 bg-white">
                 <FaTools className="text-primary text-3xl mb-4" />
                 <h4 className="font-bold text-lg mb-2">Tools</h4>
@@ -104,9 +99,7 @@ export default function About() {
               </div>
             </div>
 
-            {/* Extra Sections */}
             <div className="space-y-6">
-              {/* What I Build */}
               <div className="flex items-start gap-4 p-5 rounded-xl bg-gray-50 hover:bg-gray-100 transition">
                 <FaLayerGroup className="text-primary text-2xl mt-1" />
                 <div>
@@ -118,7 +111,6 @@ export default function About() {
                 </div>
               </div>
 
-              {/* My Approach */}
               <div className="flex items-start gap-4 p-5 rounded-xl bg-gray-50 hover:bg-gray-100 transition">
                 <FaRocket className="text-primary text-2xl mt-1" />
                 <div>
