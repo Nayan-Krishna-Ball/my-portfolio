@@ -7,10 +7,10 @@ export default function Skills() {
     { name: "Next.js", percent: 80, color: "bg-black" },
     { name: "JavaScript", percent: 90, color: "bg-yellow-400" },
     { name: "Tailwind CSS", percent: 80, color: "bg-cyan-400" },
-    { name: "Node.js", percent: 75, color: "bg-green-500" },
-    { name: "Express.js", percent: 75, color: "bg-gray-700" },
+    { name: "Node.js", percent: 75, color: "bg-red-500" },
+    { name: "Express.js", percent: 80, color: "bg-gray-700" },
     { name: "MongoDB", percent: 70, color: "bg-green-600" },
-    { name: "Git & GitHub", percent: 80, color: "bg-orange-500" },
+    { name: "Git & GitHub", percent: 90, color: "bg-orange-500" },
   ];
 
   const experienceData = [
@@ -22,7 +22,7 @@ export default function Skills() {
     {
       role: "Full Stack Projects",
       company: "E-commerce & Chat Applications",
-      years: "2023 - Present",
+      years: "2025 - Present",
     },
   ];
 
