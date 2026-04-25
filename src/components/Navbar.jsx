@@ -39,13 +39,11 @@ export default function Navbar() {
     { href: "#home", label: "Home" },
     { href: "#about", label: "About" },
     { href: "#skill", label: "Skills" },
-    { href: "#service", label: "Services" },
   ];
 
   const navLinksRight = [
+    { href: "#service", label: "Services" },
     { href: "#project", label: "Projects" },
-    { href: "#team", label: "Team" },
-    { href: "#testimonial", label: "Testimonial" },
     { href: "#contact", label: "Contact" },
   ];
 
