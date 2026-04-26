@@ -44,7 +44,7 @@ export default function Header() {
           <div className="lg:w-1/2 flex justify-end">
             <img
               className="max-w-full h-auto"
-              src="/img/profile.png"
+              src="/img/profileNonbg.png"
               alt="Profile"
             />
           </div>
