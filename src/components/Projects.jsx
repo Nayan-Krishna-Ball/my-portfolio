@@ -10,6 +10,7 @@ export default function Projects() {
       category: "first",
       img: "/img/gbd.JPG",
       link: "https://e-commerce-gadgets-bd.vercel.app/",
+      git: "https://github.com/Nayan-Krishna-Ball/E-commerce-Gadgets-bd.git",
     },
     {
       id: 2,
@@ -21,12 +22,14 @@ export default function Projects() {
       category: "second",
       img: "/img/teachHub.JPG",
       link: "https://tech-hub-e-commerce-psi.vercel.app/",
+      git: "https://github.com/Nayan-Krishna-Ball/TechHub-E-commerce-.git",
     },
     {
       id: 4,
       category: "second",
       img: "/img/vault.JPG",
       link: "https://vault-manager-react-zeta.vercel.app/",
+      git: "https://github.com/Nayan-Krishna-Ball/vault-manager-react-final-.git",
     },
   ];
 
@@ -92,7 +95,7 @@ export default function Projects() {
                 <a
                   className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-white text-white mx-2 
                   hover:bg-white hover:text-primary transition-all duration-300 transform hover:scale-110"
-                  href=""
+                  href={project.git || ""}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
