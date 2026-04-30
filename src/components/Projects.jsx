@@ -16,6 +16,8 @@ export default function Projects() {
       id: 2,
       category: "first",
       img: "/img/project-2.jpg",
+      link: "https://e-commerce-gadgets-bd.vercel.app/",
+      git: "https://github.com/Nayan-Krishna-Ball/E-commerce-Gadgets-bd.git",
     },
     {
       id: 3,
